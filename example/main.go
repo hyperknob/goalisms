@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/iaping/goalisms"
-	"github.com/iaping/goalisms/requests"
-	"github.com/iaping/goalisms/responses"
+	"github.com/hyperknob/goalisms"
+	"github.com/hyperknob/goalisms/requests"
+	"github.com/hyperknob/goalisms/responses"
 )
 
 func main() {
