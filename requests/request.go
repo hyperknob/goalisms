@@ -23,7 +23,7 @@ func NewCommon(action string) Common {
 		Format:           "json",
 		RegionId:         "cn-hangzhou",
 		SignatureMethod:  "HMAC-SHA1",
-		SignatureNonce:   fmt.Sprintf("%s", uuid.Must(uuid.NewV4())),
+		SignatureNonce:   fmt.Sprintf("%s", uuid.Must(uuid.NewV4(), nil)),
 		SignatureVersion: "1.0",
 		Timestamp:        time.Now().UTC().Format(time.RFC3339),
 		Version:          "2017-05-25",
